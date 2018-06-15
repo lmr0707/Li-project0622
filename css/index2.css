@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  position: absolute;
+  box-shadow: none;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  font-family: PingFangSc-light, Arial, "Microsoft YaHei UI", "Microsoft Yahei", "Lantinghei SC", "Hiragino Sans GB", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  height: 60px;
+  top: 0;
+  width: 100%;
+  min-width: 1280px;
+}
+header:hover {
+  background: #000;
+}
+header nav:before,
+header nav:after {
+  display: table;
+  content: "";
+}
+header nav {
+  height: 60px;
+  padding-left: 127px;
+  overflow: hidden;
+  display: block;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+header nav a {
+  color: white;
+  text-decoration: none;
+}
+header nav a:hover {
+  text-decoration: none;
+}
+header nav .header-list {
+  list-style: none;
+  float: left;
+}
+.header-search {
+  float: left;
+  margin-top: 18px;
+}
+header nav .header-list > li {
+  float: left;
+  padding: 0 15px;
+  line-height: 60px;
+}
+header nav .header-list > li a {
+  display: block;
+  height: 60px;
+  width: 100%;
+}
+.logo {
+  position: absolute;
+  top: 8px;
+}
+.login {
+  float: right;
+}
+.login > li {
+  list-style: none;
+  height: 60px;
+  float: left;
+  padding: 0 15px;
+  line-height: 60px;
+}
+.login > li a {
+  display: block;
+  height: 60px;
+  width: 100%;
+}
+header .header-list > li:hover:after {
+  content: '';
+  display: block;
+  margin-top: -3px;
+  width: 100%;
+  height: 3px;
+  background-image: -webkit-linear-gradient(right, #00A1FF, #0B62FF);
+  background-image: -o-linear-gradient(to left, #00A1FF, #0B62FF);
+  background-image: linear-gradient(to left, #00A1FF, #0B62FF);
+  background-repeat: repeat;
+}
+header li.console a {
+  width: 136px;
+  text-align: center;
+}
+header li.console a:hover {
+  opacity: 1;
+  background: #0b83e1;
+  background-image: -webkit-linear-gradient(right, #00A1FF, #0B62FF);
+  background-image: -moz-linear-gradient(right, #00A1FF, #0B62FF);
+  background-image: -moz-linear-gradient(to left, #00A1FF, #0B62FF);
+  background-image: -o-linear-gradient(to left, #00A1FF, #0B62FF);
+  background-image: linear-gradient(to left, #00A1FF, #0B62FF);
+  background-repeat: repeat;
+  color: #FFF;
+}
+.header-search input {
+  border-radius: 15px;
+  background: none;
+  border: 1px solid white;
+}
+.myCon_1,
+.myCon_2,
+.myCon_3,
+.myCon_4,
+.myCon_5 {
+  background: red;
+  position: absolute;
+  top: 60px;
+}
+.sub-nav .nav-group .nav-types h3 {
+  position: relative;
+  font-size: 14px;
+  font-weight: normal;
+  color: #999;
+  line-height: 40px;
+  cursor: pointer;
+  display: block;
+  width: 245px;
+  height: 40px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-left: 46px;
+}
+.products-nav.double-col {
+  width: 1160px;
+}
+.products-nav {
+  padding: 0 20px 0 0;
+  width: 663px;
+  margin-left: -111px;
+}
+.sub-nav {
+  position: absolute;
+  background: #101019;
+  height: auto;
+  padding: 20px 20px 20px 0;
+  z-index: 1001;
+  margin-left: -64px;
+  top: 60px;
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  display: none;
+  width: 900px;
+}
