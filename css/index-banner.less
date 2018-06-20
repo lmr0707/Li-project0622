@@ -2,7 +2,6 @@
   width: 85%;
   margin: 0 auto;
 }
-
 .banner{
   position: absolute;
   height: 620px;
@@ -30,7 +29,7 @@
   position: absolute;
   bottom: 20%;
   left: 564px;
-  z-index: 1000;
+  z-index: 100;
 }
 .banner .u1>li{
   float: left;
@@ -91,6 +90,9 @@
   background: #FFF;
   color: black;
 }
+.banner .u1>li:first-child{
+  opacity: .8;
+}
 .banner .u1>li:hover{
   opacity: .8;
 }
@@ -119,3 +121,108 @@
   opacity: .8;
 }
 
+//轮播图尾部
+.event-list{
+  position: absolute;
+  top: 510px;
+  width: 1180px;
+  margin: 0 auto;
+}
+.event-list li{
+  width: 285px;
+  height: 110px;
+  float: left;
+  position: relative;
+}
+.event-list li:hover{
+  background: rgba(0,0,0,.5);
+}
+.event-list li img{
+  float: left;
+  margin-right: 35px;
+  //vertical-align: bottom;
+}
+.event-list li a{
+  color: #FFF;
+  text-decoration: none;
+  font-size: 13px;
+}
+.event-list li a>div{
+  padding-top: 20px;
+  padding-left: 50px;
+  box-sizing: border-box;
+}
+.event-list li p{
+  line-height: 25px;
+  padding-top: 8px;
+  font-weight: normal;
+}
+.event-list li span{
+  color: #999999;
+}
+.row4{
+  width: 85%;
+  margin: 0 auto;
+}
+
+.event-list .event-dot1 {
+  position: absolute;
+  top: 20px;
+  left: 60px;
+  -webkit-transform: rotate(30deg);
+  -moz-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  -o-transform: rotate(30deg);
+  transform: rotate(30deg) scale(.5);
+}
+.event-list .event-dot2 {
+  position: absolute;
+  top: 65px;
+  left:0px;
+  -webkit-transform: rotate(210deg);
+  -moz-transform: rotate(210deg);
+  -ms-transform: rotate(210deg);
+  -o-transform: rotate(210deg);
+  transform: rotate(210deg) scale(.5);
+}
+
+.event-list  .event-dot3 {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg) scale(.5);
+}
+.event-list .event-dot4 {
+  position: absolute;
+  top: 10px;
+  left: 60px;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg) scale(.5);
+}
+.event-list .event-dot5 {
+  position: absolute;
+  top: 58px;
+  left: 72px;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg) scale(.5);
+}
+.event-list  .event-dot6 {
+  position: absolute;
+  top: 33px;
+  left: -10px;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg) scale(.5);
+}
