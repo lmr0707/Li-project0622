@@ -37,3 +37,10 @@ $('.sidebar-item').hover(function () {
     //背景
     $('.solution-bg').css('background','url(../imgs/Li/solution_bg'+index+'.png) center top no-repeat rgb(0, 0, 0)');
 });
+
+//背景图片跟随滚动条移动
+    $(window).scroll(function () {
+        var num = $(window).scrollTop();
+        $('.solution-bg').animate({backgroundPositionY:-500 + num/2 + 'px'},10);
+        $('.data-center').animate({backgroundPositionY:-1300 + num/2 + 'px'},10);
+    });
