@@ -6,7 +6,7 @@ var num = 0;
 var box = $('.imgbox');
 
 //自动轮播效果
-var timer = setInterval(change,2500);
+var timer1 = setInterval(change,2500);
 
 //点击标签切换图片
 for(let i=0; i<bq.length; i++){
@@ -56,11 +56,11 @@ $('.B_left').click(function left() {
 });
 //鼠标放入停止轮播
 $('.banner').mouseenter(function () {
-    clearInterval(timer);
+    clearInterval(timer1);
 });
 $('.banner').mouseleave(function () {
-    clearInterval(timer);
-    timer = setInterval(change,2500);
+    clearInterval(timer1);
+    timer1 = setInterval(change,2500);
 });
 
 //图片效果
