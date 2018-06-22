@@ -83,4 +83,10 @@ $('#cell>div').click(function () {
         $('#center').removeClass('center-move');
         $('#center2').removeClass('center2-move');
     },1500);
+    //内容部分
+    $('.content>li').hide();
+    $('.content>li').eq(index).show().addClass('animated fadeInUp');
+
 });
+
+
